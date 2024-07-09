@@ -1,0 +1,54 @@
+Virtual Machines : 
+
+A virtual machine (VM) is a digital version of a physical computer that can run programs, store data, connect to networks, and perform other computing functions. 
+
+
+options to automate the process is 
+AWS CLI
+AWS API
+AWS CFT  -> AWS CloudFormation
+AWS CDK  -> Cloud Development Kit 
+
+EC2 :
+1. Create a instance of ec2 
+2. commands in hyper 
+chmod 600 "C:\Users\sayan\Downloads\test1.pem" 
+ssh -i "C:\Users\sayan\Downloads\test1.pem" ubuntu@16.170.236.250 <public_ip>
+pwd - present working dir
+ls -ltr - list with metadata of the files
+vi - to create and write in a file
+    i - inert content mode on
+    esc button - to esc of writing 
+    :wq! to save and exit from file
+cat - print the file content
+rm -r - remove a dir 
+free - know about memory
+nproc - number of cpu
+df -h - disk size
+top - get all info about the machine
+man <pecific_comand> - explains about the <pecific_comand> , for example - man ls
+Linux :
+system software - 
+user processors - 
+compilers - 
+system - sys libraries
+kernel - heart of OS
+
+shell scripting 
+first enable the INSERT mode by clicking 'i' button
+esc button to escape from the current activated mode 
+header -> #!/bin/bash
+echo <message> -> print statement in shell
+:wq to write and quite the file 
+:q for just quite the file
+sh <file_name> to execute this file
+chmod -> grants permission [ch -> change]
+chmod 777 <file_name> to giv access of this file to everyone
+ in Linux 4 means read only permission
+and 444 means User(Owner) Group Everyone
+history -> to see my previous commands
+pwd -> present working dir
+mkdir -> make directry and create a folder
+rm -rf -> to delete a folder
+top -> gives stats of which memory is taking how much memory
+df -> disc spaces
