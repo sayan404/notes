@@ -1,0 +1,29 @@
+install git for OS 
+git config --global --list    > see your acc to name and email  
+git config --global user.name "abc"     > set a name
+git config --global user.email "abc@gmail.com" > set your email id
+
+
+git init > hidden file & this is the staaging area "E:/codes/git-tut/.git/"
+git add <the working directory>  > to stage the files
+git commit -m <commit message>   > to commit& -m means message
+git commit -a -m <commit message> > without going to staging area you can commit the changes  
+git-diff > To see what exactly is changed in the file
+git rm --cached <file-name>  > to avoid unexpected file uploads lke .env 
+git clone <https link >  > to clone a repo from github
+remote repository means a repository in github or somewhere where you want to contribute
+origin means the https url 
+
+git push origin main > to push code from local to remote repo and main is the branch name where i am pushing
+
+
+git remote -v > to know the origin
+git tag <version tag> -m "<message>" > to add tag a release
+git push origin  <tag> > to push tag from local to remote repo 
+
+git log > to see all the logs 
+type q to come out of git logs
+
+jei branch ei kaj koro na keno kaj korar suru te and sesh a pull nite hobe main branch theke main branch er then kaj start hobe
+
+git push origin branch-1 >     r ei comand ta diye changes will only be commited to branch-1 not to the main branch
