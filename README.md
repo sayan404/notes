@@ -1,0 +1,2 @@
+# notes
+all personal notes 
